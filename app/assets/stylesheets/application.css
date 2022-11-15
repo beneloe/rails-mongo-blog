@@ -1,0 +1,87 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+body {
+    background-color: rgba(237, 255, 236, 0.1);
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+p {
+    word-break: break-all;
+}
+
+textarea {
+    height: 200px;
+}
+
+.actions {
+    margin-bottom: 20px;
+}
+
+.article-edit {
+    background-color: rgba(216, 99, 16, 0.3);
+    width: fit-content;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.category {
+    background-color: rgba(42, 183, 24, 0.3);
+    width: fit-content;
+    border-radius: 20px;
+}
+
+.category-info {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.comment {
+    background-color: aliceblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 20px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
