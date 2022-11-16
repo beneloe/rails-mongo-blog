@@ -6,9 +6,9 @@ Please note that Windows might not support running this application.
 
 To run the application, do the following:
 
-1. Install Ruby
+1. Install Ruby (this project uses ruby 2.6.3)
 
-2. Install Ruby on Rails
+2. Install Ruby on Rails (this project uses Rails 5.1.7)
 
 3. Install Node.JS, NPM, and Yarn
 
@@ -18,7 +18,7 @@ To run the application, do the following:
 
 5. Run “bundle install”
 
-6. Run “mongosh "mongodb+srv://cluster0.42vlgno.mongodb.net/BlogDB" --apiVersion 1 --username starjung2”, when prompted for the password, enter “CHzdfQTKZuohJLwb”
+6. Run “mongosh "mongodb+srv://cluster0.42vlgno.mongodb.net/BlogDB" --apiVersion 1 --username starjung2”, when prompted for the password, enter “CHzdfQTKZuohJLwb”. Alternatively, run your own connection string.
 
 7. Run “rake db:seed”
 
